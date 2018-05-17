@@ -1,2 +1,2 @@
 # fresible-ng
-i couldn't finish it up cause of light issues over here sir
+This is the complete version of the design
