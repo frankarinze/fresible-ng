@@ -13,7 +13,7 @@ width: 32%;
 margin:10px 5px;
 background-color: #EDEDEF;
 border-radius: 10px;
-padding-bottom: 30px;
+padding-bottom: 46px;
 
 }
 .right{
@@ -23,7 +23,7 @@ margin:10px 5px;
 width: 64%;
 background-color: #EDEDEF;
 border-radius: 10px;
-padding-bottom: 30px;
+padding-bottom: 40px;
 height: auto;
 }
 .left-utm{
@@ -36,9 +36,26 @@ width: 50%;
 .right-utm{
 float: left;
 height: auto;
-
+box-sizing: border-box;
 width:50%;
-margin-left: -2px;
+margin-left: 0px;
+}
+.left-utm-row{
+float: left;
+height: auto;
+
+width: 55%;
+box-sizing: border-box;
+overflow: hidden;
+
+}
+.right-utm-row{
+float: left;
+height: auto;
+
+width:48%;
+margin-left: -20px;
+margin-top: -37%;
 }
 
 
@@ -213,3 +230,113 @@ width: 200px;
 background-color: #B9BABC;
 
 }
+.custom-progress {
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+width: 45%;
+height: 10px;
+border: none;
+background-color: #BABABC;
+}
+/* Outer bar */
+.custom-progress::-webkit-progress-bar {
+    border-radius: 18px;
+    background-color: #303a52;
+}
+/* Inner bar */
+.custom-progress::-webkit-progress-value {
+   background: #414143;
+}
+
+/**
+ * Mozilla
+ */
+
+/* Inner bar */
+
+.custom-progress::-moz-progress-bar {
+    /*border-radius: 18px;
+    background: repeating-linear-gradient(
+        135deg,
+        #606dbc,
+        #606dbc 10px,
+        #465298 10px,
+        #465298 20px
+    );*/
+    background: #414143;
+}
+
+/**
+ * IE/Edge
+ */
+
+ /* Inner bar */
+
+.custom-progress::-ms-fill {
+    background: #414143;
+}
+/* progress-utm */
+.progress-one-utm{
+	margin: 22px;
+   float: left;
+margin-top: 10px;
+}
+/* /progress-utm */
+.p-utm-ad{
+	float: left;
+	margin-top: 5px;
+}
+/* spacer */
+.div-spacer{
+	margin-bottom: 90px;
+}
+.div-spacer-one{
+	margin-bottom: 30px;
+}
+.div-spacer-two{
+	margin-bottom: 45%;
+}
+.div-spacer-three{
+	margin-top: 20px;
+}
+
+
+.spacer1{
+	padding-right: 40px;
+}
+.spacer2{
+	padding-right: 55px;
+}
+.spacer3{
+	padding-right: 30px;
+}
+.spacer4{
+	padding-right: 51px;
+}
+.spacer5{
+	margin-right: -4px;
+}
+
+.spacer6{
+	margin-right: 10px;
+}
+.spacer7{
+	margin-right: 24px;
+}
+.spacer8{
+	margin-right: 18px;
+}
+/* /spacer */
+
+/* hobie-ico */
+.hob-utm-row{
+	width: 20%;
+
+float: left;
+
+padding: 0px;
+
+text-align: center;
+}
+/* /hobie-ico */
